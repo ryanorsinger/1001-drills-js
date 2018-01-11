@@ -1,0 +1,185 @@
+Make a variable named dayOfTheWeek that holds the name of the day.
+Make a date variable called today that holds an object representing today's date.
+Make a variable named favoriteNumber that holds your favoriteNumber.
+Make a variable named myBirthday that holds a string of your birthday
+Make a variable named myCompleteBirthday that holds a date object of your birthdate
+Make a variable named favoriteBook that holds a string of your favorite book.
+Make a variable named favoriteFood that holds a string of your favorite food or dish.
+Make a variable named favoriteBeverage that holds a string of your favorite beverage.
+Make a variable named favoriteColor that holds your favorite color as a string.
+Make a variable named favoriteBand that holds a string of your favorite band's name.
+Make a variable named favoriteSong and assign it a string of your favorite song.
+Make a variable named colorNames that holds an array of 'roygbiv' colors as strings
+Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
+Make a variable named trashDay that holds the day of the week you put out the trash.
+Make a variable named recycleDay that holds the day of the week you put out the recycles.
+Make a function named sayHello(name) that returns 
+Write a function named sayHiToJane(name) that says Hi Jane if the input is Jane, otherwise "Hi"
+Write a function named sayHiBob(name) that only says "Hi Bob" if the input is "Bob", otherwise "Hi"
+Write a function named capitalize() that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
+Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word is capitalized.
+Write a function named capitalizeAll(arrayOfStrings)
+Write a function named lowerCase(string)
+Write a function named lowerCaseAll(arrayOfStrings)
+Write a function named upperCase(string)
+Write a function named upperCaseAll(arrayOfStrings)
+Write a function called yellVowels(string) that returns the string w/ vowels capitalized
+Write a function called yellConsolants(string) that returns the string w/ capitalized consonants
+Write a function called reverseString(string) that reverses a string
+Write a function called reverseArray(array) that returns the array in reverse order
+Write a function called reverseNumber(number) that returns the numerals in reverse order
+Write a function named reverse(input) that returns the reverse of any input.
+Make a function named isTodayTrashDay(trashDay) that uses trashDay and compares to today's day.
+Make a function named isTodayRecycleDay(trashDay) that uses recycleDay to return if it's the day or not.
+Make a function named allSubstrings(string) generates all combinations of a string. 'dog' produces ['d','o','do','g','dg','og','dog']
+Make a function named isFriday() that returns if today is Friday or not.
+Make a function named isWeekend(day) that returns if the provided input is on a weekend
+Make a function named isWeekday(day) that returns if the provided input is on a weekday
+Make a function named isTodayAWeekend(day) that returns if today is Saturday or Sunday
+Make a function named isTodayAWeekday(day) that returns if today is Mon-Fri
+Make a function named isBoolean(input)
+Make a function named isTrue(boolean)
+Make a function named isFalse(boolean)
+Make a function named isTruthy(input)
+Make a function named isFalsy(input)
+Make a function named areEqual(input1, input2) that returns if both inputs have the same value
+Make a function named areIdentical(input1, input2) that returns if both inputs are same value and data type.
+Make a function named not(input) returns the input with a flipped boolean
+Make a function named notNot(input) that the negation of the negation of the input.
+Make a function named and(predicate1, predicate2) that returns the logical operation of AND
+Make a function named or(predicate1, predicate2) that returns the logical operation of OR
+Make a function named identity(input) that returns the input exactly as provided.
+Make a function named isVowel(letter)
+Make a function named hasVowels(string) that uses isVowel to check if a string has any vowels
+Make a function named isConsonant(letter)
+Make a function named hasConsonants(string)
+Make a function named isCapital(letter)
+Make a function named hasCapitalLetters(string) that returns if a string has any capitals.
+Make a function named isLowerCase(letter)
+Make a function named hasLowerCase(string) that returns if a string has any lower cased
+Make a function named isSpace(letter) that returns if a character is a space character
+Make a function named hasSpaces(string) that returns if a string has any space characters
+Make a function named isZero(number)
+Make a function named isNumberic(input) returns any number or numeric string as true
+Make a function named increment(number) that returns a number plus one
+Make a function named decrement(number) that returns a number minus one
+Make a function named isOdd(number)
+Make a function named isEven(number)
+Make a function named isPositive(number)
+Make a function named isNegative(number)
+Make a function named isFibonacci(number)
+Make a function named isPrime(number)
+Make a function named getRandomIntBetween(min, max)
+Make a function named getRandomIntBetweenAndIncluding(min, max)
+Make a function named absoluteValue(number) that returns the absolute value of a number.
+Make a function named estimatePi(precision) where precision is the number of decimal places 
+Make a function named decimalToPercent(decimalNumber) that returns a format like "99%"
+Make a funciton named toRomanNumeral(integer) that returns a number in Roman notation.
+Make a function named toBinary(number) that returns a binary representation of a number
+Make a function named isBinary(input) that returns if a given input is binary.
+Make a function names toHex(number)
+Make a function named add(a, b)
+Make a function named addFive(number) that returns the number plus five.
+Make a function named subtract(a, b)
+Make a function named multiply(a, b)
+Make a function named divide(a, b)
+Make a function named modulo(a, b)
+Make a function named sine(angle)
+Make a function named cosine(angle)
+Make a function named tangent(angle)
+Make a function named square(number)
+Make a function named sumOfSquares(a, b) that returns a*a + b*b
+Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
+Make a function named firstCharacter(string) that returns the first character of a string
+Make a function named firstElement(array) that returns the first element of an array
+Make a function named firstNumeral(number) that returns the first numeral of a number.
+Make a function named first(input) that returns the first of whatever datatype passed.
+Make a function named secondString(string) that returns the second character of a string
+Make a function named secondElement(array) that returns the second element of an array
+Make a function named secondNumber(number) that returns the second numeral of a number.
+Make a function named second(input) that returns the second string, element, numeral.
+Make a function named restOfString(string) that returns every character except the first.
+Make a function named restOfArray(array) that returns the array with first removed.
+Make a function named restOfNumber(number) that returns numerals with the first removed.
+Make a function named rest(input) that returns the rest of the input w/ the first removed
+Make a function named lastString(string) that returns the last character of a string
+Make a function named lastElement(array) that returns the last element of an array
+Make a function named lastNumber(number) that returns the last numeral of a number.
+Make a function named last(input) that returns the last string, element, numeral.
+Make a function named penultimateString(string) that returns the penultimate character of a string
+Make a function named penultimateElement(array) that returns the penultimate element of an array
+Make a function named penultimateNumber(number) that returns the penultimate numeral of a number
+Make a function named penultimate(input) the penultimate from the input (string, number, array)
+Make a function named getRandomFromString(string) that returns the random character of a string
+Make a function named getRandomFromArray(array) that returns the random element of an array
+Make a function named getRandomFromNumber(number) that returns the random numeral of a number
+Make a function named getRandomFrom(input) that returns a random member from whatever input type
+Make a function named indexOfCharacter(string) that returns the index of a character of a string
+Make a function named indexOfElement(array) that returns the index of an element of an array
+Make a function named indexOfNumeral(number) that returns the index of numeral of a number
+Make a function named isArrayOfNumbers(input)
+Make a function named isArrayOfStrings(input)
+Make a function named isArrayOfArrays(input)
+Make a function named isArrayOfObjects(input)
+Make a function named isMatrix(input)
+Make a function named rotateMatrixClockwise(input)...
+Make a function named addOneToAll(arrayOfNumbers)
+Make a function named isBlackJack(number) that returns if a number is 21
+Make a function named getEvens(arrayOfNumbers) that returns only the even values
+Make a function named getOdd(arrayOfNumbers) that returns only the odd values
+Make a function named getMultiplesFrom(n, arrayOfNumbers) that returns an array containing only multiples of n from an array of numbers
+Make a function named isString(input)
+Make a function named isArrayOfNumbers(input)
+Make a function named isArrayOfStrings(input)
+Make a function named isArrayOfArrays(input)
+Make a function named isArrayOfObjects()
+Make a function named flatten()
+Make a function named alphabeticalSortString(string)
+Make a function named alphabeticalSortString(arrayOfStrings)
+Make a function named reverseAlphabeticalSortString(string)
+Make a function named reverseAlphabeticalArrayOfStrings(arrayOfStrings)
+Make a function named frequencies(stringOrArray) that returns an object representing the frequency count of each member (character or element value)
+Make a function named shuffleString(string)
+Make a function named shuffleNumber(number)
+Make a function named shuffleArray(array)
+Make a function named shuffle(input) that returns the shuffled input (array, spring, number)
+Make a funciton named swapCase(string) that swaps the case of each letter.
+Make a function named count(stringOrArray) that returns the number of elements or letters.
+Make a function named isArray(input) that returns whether or not the input is strictly an array
+Make a function named canVote(birthdate) that takes in a birthdate variable and returns true or false if now() - birthdate is greater than or equal to 18
+Write a function named isPalindrome(string) that determines if a given string is a palindrome or not
+Write a function named generatePalindrome(length) that takes in length as an input and returns a randomly generated palindrome
+Make a function named getLongestWordFromString(string)
+Make a function named getLongestStringFromArray(arrayOfStrings)
+Make a function named getLongest(input) that returns the longest word from a string or string from an array of strings.
+Make a function named getVowelCount(string)
+Make a function named getConsonantCount(string)
+Make a function named getType(input) that returns the right data type (array should return 'Array')
+Make a function named min(input) that returns the lowest value from an array
+Make a function named max(input) that returns the highest value from an array
+Make a function named isPerfect(number)
+Make a function named amountToCoins(input) that returns the number of coins to make up the input
+Make a function named getUniqueCharactersFromString(string) returns only unique characters from a string
+Make a function named getUniqueNumbersFromString(string) returns an array of the unique numbers in a string ex. "abc123" returns "123"
+Make a function named getUniqueStringsFromString(string)
+Make a function named getUniqueNumbersFromArray(array)
+Make a function named getUniqueStringsFromArray(array)
+Make a function named getUniqueArraysFromArray(array)
+Make a more general getUnique(input) that returns only the unique values from any input.
+Make a function named sumAll(arrayOfNumbers) that returns the sum of all the numbers in an array
+Make a function named multiplyAll(arrayOfNumbers) that returns the product of all the numbers in an array
+Make a function named range(x, y) to get the integers in range
+Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
+Make a function named stringToArray(string) that turns a string with spaces into an array of strings
+Make a function named camelCase(string) that returns a string converted to camelCase
+Make a function named repeat(string, times) that returns a string repeated a given number of times
+Make a function named humanizeNumber(number) that returns 1st, 2nd, 83rd, etc...
+Make a function named trim(string) that removes empty spaces before and after the input.
+Make a function named flatten(array) that flattends a nested list
+Make a function named getPositionInString(string, target)
+Make a function named getPositionInArray(string, target)
+Make a function named getPosition(input)
+Make a function named compressString() that eliminates only consecutive duplicates on a string. Example (1, 1, 2, 2, 1, 1, 3, 3, 4, 4) becomes (1, 2, 1, 3, 4)
+Make a function named compressArray(array)
+Make a function named compress(input)
+Make a function called pack() that returns consecutive duplicates of list elements into sublists. Example [1, 1, 1, 2, 2, 3, 4, 4, 5, 2, 2] becomes [[1,1,1], [2, 2], [4, 4], [2, 2]]
