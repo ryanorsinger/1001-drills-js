@@ -2,8 +2,8 @@
 // where your node app starts
 
 // init project
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -33,13 +33,13 @@ app.post("/dreams", function (request, response) {
 });
 
 // Simple in-memory store for now
-var dreams = [
+let dreams = [
   "Find and count some sheep",
   "Climb a really tall mountain",
   "Wash the dishes"
 ];
 
 // listen for requests :)
-var listener = app.listen(process.env.PORT, function () {
+const listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });

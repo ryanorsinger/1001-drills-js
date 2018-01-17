@@ -1,3 +1,7 @@
+document.body.innerHTML = "";
+document.title = "Welcome to 1001 Drills";
+
+document.body.
 Make a variable named dayOfTheWeek that holds the name of the day.
 Make a date variable called today that holds an object representing today's date.
 Make a variable named favoriteNumber that holds your favoriteNumber.
@@ -90,6 +94,7 @@ Make a function named tangent(angle)
 Make a function named square(number)
 Make a function named sumOfSquares(a, b) that returns a*a + b*b
 Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
+Make a function named firstString(input) that returns the first word in a string, separated by space characters.
 Make a function named firstCharacter(string) that returns the first character of a string
 Make a function named firstElement(array) that returns the first element of an array
 Make a function named firstNumeral(number) that returns the first numeral of a number.
@@ -172,6 +177,8 @@ Make a function named range(x, y) to get the integers in range
 Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
 Make a function named stringToArray(string) that turns a string with spaces into an array of strings
 Make a function named camelCase(string) that returns a string converted to camelCase
+Make a function named studlyCase(string) that returns a string converted to StudlyCase
+Make a function named snakeCase(string) that returns a string converted to snake_case
 Make a function named repeat(string, times) that returns a string repeated a given number of times
 Make a function named humanizeNumber(number) that returns 1st, 2nd, 83rd, etc...
 Make a function named trim(string) that removes empty spaces before and after the input.
@@ -183,3 +190,7 @@ Make a function named compressString() that eliminates only consecutive duplicat
 Make a function named compressArray(array)
 Make a function named compress(input)
 Make a function called pack() that returns consecutive duplicates of list elements into sublists. Example [1, 1, 1, 2, 2, 3, 4, 4, 5, 2, 2] becomes [[1,1,1], [2, 2], [4, 4], [2, 2]]
+Make a function named nullOrUndefined(input) that returns true only when the input is null or undefined
+Make a function named keys(object) that returns a sequence of an object's properties, in the same order
+Make a function named vals(object) that returns a sequence of an object's values, in the same order
+

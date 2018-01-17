@@ -4,10 +4,19 @@ by: Ryan Orsinger
 
 <img src="https://media.giphy.com/media/tw0OQHVWHVrSo/giphy.gif" alt="drill bit drilling">
 
-Rationale:
-Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity
+## Rationale:
+Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity. Drills function by applying repetition and pressure. 
 
-Getting Started:
+## Getting Started:
+- Make sure you've already got node installed.
+- clone this repository 
+- `npm install`
+- `npm run`
+- navigate your browser to `http://localhost:port` where port is displayed in 
+
+or
+
+- Remix in glitch with one click.
 
 Thoughts for additional material:
 - Progression: booleans->numbers->strings->functions->conditionals->arrays->objects->higherOrderFunctions
