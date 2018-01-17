@@ -7,7 +7,17 @@ by: Ryan Orsinger
 ## Rationale:
 Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity.
 
+
 ## Getting Started:
+- Make sure you've already got node installed.
+- clone this repository 
+- `npm install`
+- `npm run`
+- navigate your browser to `http://localhost:port` where port is displayed in 
+
+or
+
+- Remix in glitch with one click.
 
 
 ## Thoughts for additional material:

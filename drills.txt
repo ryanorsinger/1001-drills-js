@@ -1,4 +1,5 @@
 document.body.innerHTML = "";
+document.title = "Welcome to 1001 Drills";
 document.body.innerHTML += "<h1>Howdy</h1>";
 document.body.innerHTML += "<br>";
 document.body.innerHTML += "<hr>";
@@ -14,6 +15,7 @@ Make a variable named fullName that is a combination of your firstName + " " + l
 Make a variable name nickName that holds a string of your nickname. If you've never had a nickname, then store your first name in the nickName variable.
 Make a variable named superHero that holds a string of your favorite super hero.
 Make a variable named superVillain that holds a string of a popular villain.
+
 Make a variable named dayOfTheWeek that holds the name of the day.
 Make a date variable called today that holds an object representing today's date.
 Make a variable named favoriteNumber that holds your favoriteNumber.
@@ -92,6 +94,7 @@ Make a function named isMultipleOfThree(input)
 Make a function named isMultipleOfThreeAndFive(input)
 Make a function named sumOfSquares(a, b) that returns a*a + b*b
 Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
+Make a function named firstString(input) that returns the first word in a string, separated by space characters.
 Make a function named firstCharacter(string) that returns the first character of a string
 Make a function named firstElement(array) that returns the first element of an array
 Make a function named firstNumeral(number) that returns the first numeral of a number.
@@ -171,6 +174,8 @@ Make a function named range(x, y) to get the integers in range
 Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
 Make a function named stringToArray(string) that turns a string with spaces into an array of strings
 Make a function named camelCase(string) that returns a string converted to camelCase
+Make a function named studlyCase(string) that returns a string converted to StudlyCase
+Make a function named snakeCase(string) that returns a string converted to snake_case
 Make a function named repeat(string, times) that returns a string repeated a given number of times
 Make a function named humanizeNumber(number) that returns 1st, 2nd, 83rd, etc...
 Make a function named trim(string) that removes empty spaces before and after the input.
@@ -182,6 +187,7 @@ Make a function named compressString() that eliminates only consecutive duplicat
 Make a function named compressArray(array)
 Make a function named compress(input)
 Make a function called pack() that returns consecutive duplicates of list elements into sublists. Example [1, 1, 1, 2, 2, 3, 4, 4, 5, 2, 2] becomes [[1,1,1], [2, 2], [4, 4], [2, 2]]
+<<<<<<< HEAD
 Make a function named join(set1, set2) that returns the intersection of set1 and set2
 Make a function named coinFlip() that randomly returns true or false
 Make a function named sixSidedDie() that randomly returns 1-6
@@ -205,3 +211,6 @@ Make a function named lastIndexOfCharacter(string) that returns the index of a c
 Make a function named lastIndexOfElement(array) that returns the index of an element of an array
 Make a function named lastIndexOfNumeral(number) that returns the index of numeral of a number
 Make a function named lastIndexOf(needle, haystack)
+Make a function named nullOrUndefined(input) that returns true only when the input is null or undefined
+Make a function named keys(object) that returns an array of an object's properties, in the same order
+Make a function named vals(object) that returns an array of an object's values, in the same order
