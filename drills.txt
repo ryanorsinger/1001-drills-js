@@ -1,7 +1,21 @@
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
+document.body.innerHTML += "<h1>Howdy</h1>";
+document.body.innerHTML += "<br>";
+document.body.innerHTML += "<hr>";
+document.body.innerHTML += "<input type='text' name='input' id='input' placeholder='input' autofocus>";
+document.body.innerHTML += "<br>";
+document.body.innerHTML += "<textarea name='solution' id='solution' placeholder='Solution'></textarea>";
+document.body.innerHTML += "<br>";
+document.body.innerHTML += '<textarea name="output" id="output" placeholder="output"></textarea>';
 
-document.body.
+Make a variable named firstName that holds a string of your first name.
+Make a variable named lastName that holds a string of your last name.
+Make a variable named fullName that is a combination of your firstName + " " + lastName
+Make a variable name nickName that holds a string of your nickname. If you've never had a nickname, then store your first name in the nickName variable.
+Make a variable named superHero that holds a string of your favorite super hero.
+Make a variable named superVillain that holds a string of a popular villain.
+
 Make a variable named dayOfTheWeek that holds the name of the day.
 Make a date variable called today that holds an object representing today's date.
 Make a variable named favoriteNumber that holds your favoriteNumber.
@@ -17,10 +31,10 @@ Make a variable named colorNames that holds an array of 'roygbiv' colors as stri
 Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
 Make a variable named trashDay that holds the day of the week you put out the trash.
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
-Make a function named sayHello(name) that returns 
-Write a function named sayHiToJane(name) that says Hi Jane if the input is Jane, otherwise "Hi"
+Make a function named sayHello(name) that returns "Hi " + name.
+Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
 Write a function named sayHiBob(name) that only says "Hi Bob" if the input is "Bob", otherwise "Hi"
-Write a function named capitalize() that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
+Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
 Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word is capitalized.
 Write a function named capitalizeAll(arrayOfStrings)
 Write a function named lowerCase(string)
@@ -71,27 +85,13 @@ Make a function named isOdd(number)
 Make a function named isEven(number)
 Make a function named isPositive(number)
 Make a function named isNegative(number)
-Make a function named isFibonacci(number)
+Make a function named isFibbonacci(number)
 Make a function named isPrime(number)
-Make a function named getRandomIntBetween(min, max)
-Make a function named getRandomIntBetweenAndIncluding(min, max)
-Make a function named absoluteValue(number) that returns the absolute value of a number.
-Make a function named estimatePi(precision) where precision is the number of decimal places 
-Make a function named decimalToPercent(decimalNumber) that returns a format like "99%"
-Make a funciton named toRomanNumeral(integer) that returns a number in Roman notation.
-Make a function named toBinary(number) that returns a binary representation of a number
-Make a function named isBinary(input) that returns if a given input is binary.
-Make a function names toHex(number)
-Make a function named add(a, b)
-Make a function named addFive(number) that returns the number plus five.
-Make a function named subtract(a, b)
-Make a function named multiply(a, b)
-Make a function named divide(a, b)
-Make a function named modulo(a, b)
-Make a function named sine(angle)
-Make a function named cosine(angle)
-Make a function named tangent(angle)
-Make a function named square(number)
+Make a function named isFive(input)
+Make a function named isMultipleOfFive(input)
+Make a function named isThree(input)
+Make a function named isMultipleOfThree(input)
+Make a function named isMultipleOfThreeAndFive(input)
 Make a function named sumOfSquares(a, b) that returns a*a + b*b
 Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
 Make a function named firstString(input) that returns the first word in a string, separated by space characters.
@@ -119,9 +119,6 @@ Make a function named getRandomFromString(string) that returns the random charac
 Make a function named getRandomFromArray(array) that returns the random element of an array
 Make a function named getRandomFromNumber(number) that returns the random numeral of a number
 Make a function named getRandomFrom(input) that returns a random member from whatever input type
-Make a function named indexOfCharacter(string) that returns the index of a character of a string
-Make a function named indexOfElement(array) that returns the index of an element of an array
-Make a function named indexOfNumeral(number) that returns the index of numeral of a number
 Make a function named isArrayOfNumbers(input)
 Make a function named isArrayOfStrings(input)
 Make a function named isArrayOfArrays(input)
@@ -138,7 +135,7 @@ Make a function named isArrayOfNumbers(input)
 Make a function named isArrayOfStrings(input)
 Make a function named isArrayOfArrays(input)
 Make a function named isArrayOfObjects()
-Make a function named flatten()
+Make a function named flatten(input) that flattens nested arrays
 Make a function named alphabeticalSortString(string)
 Make a function named alphabeticalSortString(arrayOfStrings)
 Make a function named reverseAlphabeticalSortString(string)
@@ -152,8 +149,8 @@ Make a funciton named swapCase(string) that swaps the case of each letter.
 Make a function named count(stringOrArray) that returns the number of elements or letters.
 Make a function named isArray(input) that returns whether or not the input is strictly an array
 Make a function named canVote(birthdate) that takes in a birthdate variable and returns true or false if now() - birthdate is greater than or equal to 18
-Write a function named isPalindrome(string) that determines if a given string is a palindrome or not
-Write a function named generatePalindrome(length) that takes in length as an input and returns a randomly generated palindrome
+Make a function named isPalindrome(string) that determines if a given string is a palindrome or not
+Make a function named generatePalindrome(length) that takes in length as an input and returns a randomly generated palindrome
 Make a function named getLongestWordFromString(string)
 Make a function named getLongestStringFromArray(arrayOfStrings)
 Make a function named getLongest(input) that returns the longest word from a string or string from an array of strings.
@@ -170,7 +167,7 @@ Make a function named getUniqueStringsFromString(string)
 Make a function named getUniqueNumbersFromArray(array)
 Make a function named getUniqueStringsFromArray(array)
 Make a function named getUniqueArraysFromArray(array)
-Make a more general getUnique(input) that returns only the unique values from any input.
+Make a function named getUnique(input) that returns only the unique values from any input.
 Make a function named sumAll(arrayOfNumbers) that returns the sum of all the numbers in an array
 Make a function named multiplyAll(arrayOfNumbers) that returns the product of all the numbers in an array
 Make a function named range(x, y) to get the integers in range
@@ -190,7 +187,30 @@ Make a function named compressString() that eliminates only consecutive duplicat
 Make a function named compressArray(array)
 Make a function named compress(input)
 Make a function called pack() that returns consecutive duplicates of list elements into sublists. Example [1, 1, 1, 2, 2, 3, 4, 4, 5, 2, 2] becomes [[1,1,1], [2, 2], [4, 4], [2, 2]]
+<<<<<<< HEAD
+Make a function named join(set1, set2) that returns the intersection of set1 and set2
+Make a function named coinFlip() that randomly returns true or false
+Make a function named sixSidedDie() that randomly returns 1-6
+Make a function named twentySidedDie() thtat randomly returns 1-20
+Make a function named yatsi() that rolls 6d6 dice....
+Make a function named craps() that returns the roll of 2d6
+Make a function named isWholeNumber(input) that returns true if the number is whole
+Make a function named isRationalNumber(input) that returns true if the number is rational
+Make a function named isScalar(input) that returns true/false if the input is a scalar value or not.
+Make a function named hasDecimal(input) that returns true/false if the input has any decimal values or not.
+Make a function named isArrayOfScalars(input) that returns true if there provided input is an array of scalar values.
+Make a function named firstIndexOfCharacter(character, string) that returns the index of a character of a string
+Make a function named firstIndexOfElement(element, array) that returns the index of an element of an array
+Make a function named firstIndexOfNumeral(numeral, number) that returns the index of numeral of a number
+Make a function named firstIndexOf(needle, haystack)
+Make a function named secondIndexOfCharacter(character, string) that returns the index of a character of a string
+Make a function named secondIndexOfElement(element, array) that returns the index of an element of an array
+Make a function named secondIndexOfNumeral(numeral, number) that returns the index of numeral of a number
+Make a function named secondIndexOf(needle, haystack)
+Make a function named lastIndexOfCharacter(string) that returns the index of a character of a string
+Make a function named lastIndexOfElement(array) that returns the index of an element of an array
+Make a function named lastIndexOfNumeral(number) that returns the index of numeral of a number
+Make a function named lastIndexOf(needle, haystack)
 Make a function named nullOrUndefined(input) that returns true only when the input is null or undefined
-Make a function named keys(object) that returns a sequence of an object's properties, in the same order
-Make a function named vals(object) that returns a sequence of an object's values, in the same order
-
+Make a function named keys(object) that returns an array of an object's properties, in the same order
+Make a function named vals(object) that returns an array of an object's values, in the same order
