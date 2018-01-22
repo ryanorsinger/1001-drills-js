@@ -20,11 +20,14 @@ or
 - Remix in glitch with one click, then click "Show" to launch the application.
 
 ## Topics and tags
+Syntax errors
+Common syntactical errors (using assignment operator in an if condition, )
 Literal primitive values
 Data types
 statements
 expressions
-equality and identity
+equality and inequality
+identity and non-identity
 comparisson operators
 boolean logic operators
 truthy/falsy 
@@ -82,11 +85,11 @@ ajax requests
 
 - Convert given functions to methods on a library object like the name of the library or framework
 
+## Drills:
+See drills.txt for the complete listing of all drill names with a brief description.
+
 ## Inspiration, but not quite what I want and envision:
 - https://github.com/Jam3/math-as-code/blob/master/README.md
 - http://reactivex.io/learnrx/
 - http://exercism.io/languages/javascript/exercises
 - http://hackerrank.com/
-
-## Drills:
-See drills.txt for the complete listing of all drill names with a brief description.

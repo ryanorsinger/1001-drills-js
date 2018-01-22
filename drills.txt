@@ -1,6 +1,6 @@
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
-document.body.innerHTML += "<h1>Howdy</h1>";
+document.body.innerHTML = "<h1>Howdy</h1>";
 document.body.innerHTML += "<br>";
 document.body.innerHTML += "<hr>";
 document.body.innerHTML += "<input type='text' name='input' id='input' placeholder='input' autofocus>";
