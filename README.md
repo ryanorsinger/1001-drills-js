@@ -7,8 +7,8 @@ by: Ryan Orsinger
 ## Rationale:
 Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity.
 
-
 ## Getting Started:
+
 - Make sure you've already got node installed.
 - clone this repository 
 - `npm install`
@@ -16,9 +16,66 @@ Drills are purposeful rehearsal aimed at improving performance. Pracitioners nee
 - navigate your browser to `http://localhost:port` where port is displayed in 
 
 or
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/1001-drills)
+- Remix in glitch with one click, then click "Show" to launch the application.
 
-<a href="https://glitch.com/edit/#!/remix/1001-drills"><img alt="Remix on Glitch" src="https://cdn.gomix.com/f3620a78-0ad3-4f81-a271-c8a4faa20f86%2Fremix-button.svg" alt="Remix on Glitch"></a>
+## Topics and tags
 
+- Syntax errors
+- Common syntactical errors (using assignment operator in an if condition, )
+- Literal primitive values
+- Data types
+- statements
+- expressions
+- equality and inequality
+- identity and non-identity
+- comparisson operators
+- boolean logic operators
+- truthy/falsy 
+- type casting and juggling
+- strings and string methods
+- numbers + basic math
+- ternary expressions
+- constant assignment
+- variable assignment
+- variable reassignment
+- shortcut operators (++, --, +=, etc...)
+- internal functions
+- if
+- if/else
+- if/else if/else if
+- if/else if/else
+- switch case
+- using funcitons for predicate logic
+- scope
+- user defined functions
+- adding values and html to the HTML document
+- arrays and array access
+- array element reassignment
+- array functions/methods
+- manually iterating across arrays
+- while loops
+- do while loops
+- for loops
+- forEach loops
+- .map
+- .filter
+- .reduce
+- working w/ html objects in js
+- internal JS objects (window, Math, etc...)
+- user defined objects
+- JSON data objects
+- reducing to objects and collections
+- getting collections onto html
+- recursion
+- extending prototypes
+- classes
+- object constructor funtions
+- es6 shorthand
+- string templates
+- arrow functions
+- spread operator
+- ajax requests
 
 ## Thoughts for additional material:
 - Progression: booleans->numbers->strings->functions->conditionals->arrays->objects->higherOrderFunctions
@@ -29,11 +86,11 @@ or
 
 - Convert given functions to methods on a library object like the name of the library or framework
 
+## Drills:
+See drills.txt for the complete listing of all drill names with a brief description.
+
 ## Inspiration, but not quite what I want and envision:
 - https://github.com/Jam3/math-as-code/blob/master/README.md
 - http://reactivex.io/learnrx/
 - http://exercism.io/languages/javascript/exercises
 - http://hackerrank.com/
-
-## Drills:
-See drills.txt for the complete listing of all drill names with a brief description.
