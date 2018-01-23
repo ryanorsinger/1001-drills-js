@@ -14,15 +14,19 @@ false === true
 typeof (true === true)
 typeof true === "string"
 typeof false === "boolean"
+2.1
+-20
 typeof 4
 typeof 0
 4 - 2
-typeof -100
+10 / 5
 typeof 3.141
-!4
 !5.32
 !-12
+!5
+!!5
 !0
+!!0
 99 === 99
 2 === 2.0
 4 !== 2
@@ -30,18 +34,25 @@ typeof 3.141
 11 - 7
 "Hi, everybody!"
 typeof "Howdy, ya'll!"
-"Hi" === "Howdy"
-"Greetings" === "Greetings"
-typeof "Greetings" === "Greetings"
-
-
-
+"Hello" === "Hello"
+typeof "Howdy" === typeof "Howdy"
+typeof 5
+typeof "5"
+typeof 5 === typeof "5"
+5 === "5"
+5 == "5"
+5 !== "5"
+5 != "5"
+"Hello, " + "World!"
+"H" + "e" + "l" + "l" + "o"
 2 + 2
 2 + "2"
 2 + "2.3"
 2 + parseInt("2.3")
 2 + parseFloat("2.3")
-
+20 / 0
+"" == false
+"" === false
 
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
