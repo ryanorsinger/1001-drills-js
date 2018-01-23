@@ -22,19 +22,19 @@ or
 
 ## Topics and tags
 
-- Syntax errors
-- Common syntactical errors (using assignment operator in an if condition, )
 - Literal primitive values
 - Data types
+- Booleans
 - statements
 - expressions
-- equality and inequality
 - identity and non-identity
+- equality and inequality
 - comparisson operators
 - boolean logic operators
 - truthy/falsy 
 - type casting and juggling
-- strings and string methods
+- strings and escape characters
+- string methods
 - numbers + basic math
 - ternary expressions
 - constant assignment
@@ -77,6 +77,15 @@ or
 - arrow functions
 - spread operator
 - ajax requests
+
+- Common syntactical errors (using assignment operator in an if condition, )
+
+Concepts
+- associativity
+- communicativity
+- transativity
+- distributive 
+
 
 ## Thoughts for additional material:
 - Progression: booleans->numbers->strings->functions->conditionals->arrays->objects->higherOrderFunctions

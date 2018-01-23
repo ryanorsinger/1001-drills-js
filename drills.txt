@@ -1,3 +1,48 @@
+true
+false
+typeof true
+typeof false
+!true
+!!true
+!false
+!!false
+typeof !!false
+true === true
+false === false
+true === false
+false === true
+typeof (true === true)
+typeof true === "string"
+typeof false === "boolean"
+typeof 4
+typeof 0
+4 - 2
+typeof -100
+typeof 3.141
+!4
+!5.32
+!-12
+!0
+99 === 99
+2 === 2.0
+4 !== 2
+10 * 3
+11 - 7
+"Hi, everybody!"
+typeof "Howdy, ya'll!"
+"Hi" === "Howdy"
+"Greetings" === "Greetings"
+typeof "Greetings" === "Greetings"
+
+
+
+2 + 2
+2 + "2"
+2 + "2.3"
+2 + parseInt("2.3")
+2 + parseFloat("2.3")
+
+
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
 document.body.innerHTML = "<h1>Howdy</h1>";
@@ -9,7 +54,9 @@ document.body.innerHTML += "<textarea name='solution' id='solution' placeholder=
 document.body.innerHTML += "<br>";
 document.body.innerHTML += '<textarea name="output" id="output" placeholder="output"></textarea>';
 
-Make a variable named firstName that holds a string of your first name.
+
+
+Make a variable named firstName that holds a string of your first name.//
 Make a variable named lastName that holds a string of your last name.
 Make a variable named fullName that is a combination of your firstName + " " + lastName
 Make a variable name nickName that holds a string of your nickname. If you've never had a nickname, then store your first name in the nickName variable.
@@ -50,7 +97,7 @@ Write a function named reverse(input) that returns the reverse of any input.
 Make a function named isTodayTrashDay(trashDay) that uses trashDay and compares to today's day.
 Make a function named isTodayRecycleDay(trashDay) that uses recycleDay to return if it's the day or not.
 Make a function named allSubstrings(string) generates all combinations of a string. 'dog' produces ['d','o','do','g','dg','og','dog']
-Make a function named isFriday() that returns if today is Friday or not.
+Make a function named isTodayFriday() that returns if today is Friday or not.
 Make a function named isWeekend(day) that returns if the provided input is on a weekend
 Make a function named isWeekday(day) that returns if the provided input is on a weekday
 Make a function named isTodayAWeekend(day) that returns if today is Saturday or Sunday
@@ -187,7 +234,6 @@ Make a function named compressString() that eliminates only consecutive duplicat
 Make a function named compressArray(array)
 Make a function named compress(input)
 Make a function called pack() that returns consecutive duplicates of list elements into sublists. Example [1, 1, 1, 2, 2, 3, 4, 4, 5, 2, 2] becomes [[1,1,1], [2, 2], [4, 4], [2, 2]]
-<<<<<<< HEAD
 Make a function named join(set1, set2) that returns the intersection of set1 and set2
 Make a function named coinFlip() that randomly returns true or false
 Make a function named sixSidedDie() that randomly returns 1-6
@@ -214,3 +260,6 @@ Make a function named lastIndexOf(needle, haystack)
 Make a function named nullOrUndefined(input) that returns true only when the input is null or undefined
 Make a function named keys(object) that returns an array of an object's properties, in the same order
 Make a function named vals(object) that returns an array of an object's values, in the same order
+Extend the string prototype to have a map method
+Extend the string prototype to have a filter method
+Extend the string prototype to have a reduce method
