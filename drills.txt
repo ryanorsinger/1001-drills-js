@@ -47,7 +47,7 @@ typeof (5 === 5)
 "23" > 42
 !"banana"
 !!"banana"
-20 => 20
+20 >= 20
 5 < 10
 "Hello, " + "World!"
 "H" + "e" + "l" + "l" + "o"
@@ -55,8 +55,7 @@ typeof (5 === 5)
 2 + 2
 2 + "2"
 2 + "2.3"
-2 + parseInt("2.3")
-2 + parseFloat("2.3")
+2 + parseInt("2.3") + parseFloat("2.3")
 "banana" * 3
 parseFloat("banana")
 20 / 0
@@ -70,8 +69,8 @@ undefined == null
 undefined === null
 "" == false
 "" === false
-typeof "true"
-typeof true === tyepof "true"
+typeof "banana"
+typeof true === tyepof "banana"
 true === 1
 true == 1
 false === 0
@@ -91,7 +90,7 @@ favoriteNumber == 23;
 (favoriteNumber == 5 || favoriteNumber == 23)
 favoriteNumber = 23;
 favoriteNumber;
-const myName = "";
+const myName = "";  //
 myName === "Bob"
 myName = "Bob"
 myName.toUpperCase()
@@ -122,12 +121,22 @@ var total = 0;
 var appetizer = 4;
 var mainDish = 9;
 var dessert = 3;
+total = appetizer
+total
+total = mainDish
+total
+total = dessert
+total = 0;
+total = appetizer + mainDish + dessert;
+total
+total = 0;
 total += appetizer;
 total
 total += mainDish;
 total
 total += dessert;
 total
+
 
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
