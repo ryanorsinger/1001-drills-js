@@ -16,7 +16,6 @@ typeof true === "string"
 typeof false === "boolean"
 2.1
 -20
-typeof 4
 typeof 0
 4 - 2
 10 / 5
@@ -39,20 +38,96 @@ typeof "Howdy" === typeof "Howdy"
 typeof 5
 typeof "5"
 typeof 5 === typeof "5"
+typeof (5 === 5)
 5 === "5"
 5 == "5"
 5 !== "5"
 5 != "5"
+10 > 2
+"23" > 42
+!"banana"
+!!"banana"
+20 => 20
+5 < 10
 "Hello, " + "World!"
 "H" + "e" + "l" + "l" + "o"
+"Hello" != "World"
 2 + 2
 2 + "2"
 2 + "2.3"
 2 + parseInt("2.3")
 2 + parseFloat("2.3")
+"banana" * 3
+parseFloat("banana")
 20 / 0
+undefined
+!undefined
+!!undefined
+null
+!null
+!!null
+undefined == null
+undefined === null
 "" == false
 "" === false
+typeof "true"
+typeof true === tyepof "true"
+true === 1
+true == 1
+false === 0
+false == 0
+5 === 5
+5 == 5
+5 = 5
+Make a variable called rightHereNow and assign it the value of true.
+Make a variable called onTheMoon and assign it the value of false.
+rightHereNow && onTheMoon
+rightHereNow || onTheMoon
+var favoriteNumber = 5;
+favoriteNumber;
+favoriteNumber === "5";
+favoriteNumber == "5";
+favoriteNumber == 23;
+(favoriteNumber == 5 || favoriteNumber == 23)
+favoriteNumber = 23;
+favoriteNumber;
+const myName = "";
+myName === "Bob"
+myName = "Bob"
+myName.toUpperCase()
+myName.toLowerCase()
+myName
+myName = myName.toUpperCase();
+var shoutMyName = myName.toUpperCase();
+shoutMyName;
+var favoriteNumber; // assign this your favorite number.
+var greeting = "Hi";
+var name = "Put your name in quotes"
+greeting + name
+greeting + " " + name
+var isLoggedIn = true;
+var isAuthor = false;
+var isAdmin = true;
+var canMakeEdits = isLoggedIn && (isAuthor || isAdmin)
+canMakeEdits
+isLoggedIn = false;
+canMakeEdits
+canMakeEdits = isLoggedIn && (isAuthor || isAdmin)
+var favoriteColor;
+console.log(favoriteColor);
+favoriteColor = "" // add your favorite color in the string
+favoriteColor == "green";
+(favoriteColor == "green" || favoriteColor == "blue" || favoriteColor == "red")
+var total = 0;
+var appetizer = 4;
+var mainDish = 9;
+var dessert = 3;
+total += appetizer;
+total
+total += mainDish;
+total
+total += dessert;
+total
 
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
@@ -65,9 +140,7 @@ document.body.innerHTML += "<textarea name='solution' id='solution' placeholder=
 document.body.innerHTML += "<br>";
 document.body.innerHTML += '<textarea name="output" id="output" placeholder="output"></textarea>';
 
-
-
-Make a variable named firstName that holds a string of your first name.//
+Make a variable named firstName that holds a string of your first name.
 Make a variable named lastName that holds a string of your last name.
 Make a variable named fullName that is a combination of your firstName + " " + lastName
 Make a variable name nickName that holds a string of your nickname. If you've never had a nickname, then store your first name in the nickName variable.
