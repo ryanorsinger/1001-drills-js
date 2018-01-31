@@ -213,28 +213,36 @@ Write a function named subtract(a, b) that returns a minus b
 Write a function named multiply(a, b) that returns the product of a times b
 Write a function named divide(a, b) that returns a divided by b
 Write a function named remainder(a, b) that returns the remainder after dividing a by b
+Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
+Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
+Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
+Write a function named invertSign(number) that returns a negative version of a postive number, a positve version of negative, and false for all else.
+Write a function named sine(number) that returns false or the sine of a number ()
+Write a function named cosine(number)
+Write a function named tangent(number)
+Write a function named arcsine()
+Write a function named arccosine()
+Write a function named cotangent()
+Write a function named degreesToRadians(number)
+Write a function named radiansToDegrees(number)
+Make a function named sumOfSquares(a, b) that returns a*a + b*b
+
 Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
 Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
 Make a function named trim(string) that removes empty spaces before and after the input. 
 Make a functio named highestNumber(a, b, c) that takes in 3 numbers and returns the highest.
-
 Write a function named lowerCaseAll(arrayOfStrings)
 Write a function named upperCaseAll(arrayOfStrings)
 Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
 Write a function named sayHiBob(name) that only says "Hi Bob" if the input is "Bob", otherwise "Hi"
 Write a function named capitalizeAll(arrayOfStrings)
-
 Write a function called yellVowels(string) that returns the string w/ vowels capitalized
 Write a function called yellConsolants(string) that returns the string w/ capitalized consonants
-Write a function called reverseString(string) that reverses a string
-Write a function called reverseArray(array) that returns the array in reverse order
-Write a function called reverseNumber(number) that returns the numerals in reverse order
-Write a function named reverse(input) that returns the reverse of any input.
+
 Make a function named isTodayTrashDay(trashDay) that uses trashDay and compares to today's day.
 Make a function named isTodayRecycleDay(trashDay) that uses recycleDay to return if it's the day or not.
 Make a function named allSubstrings(string) generates all combinations of a string. 'dog' produces ['d','o','do','g','dg','og','dog']
 Make a function named isTodayFriday() that returns if today is Friday or not.
-
 Make a function named isWeekend(day) that returns if the provided input is on a weekend
 Make a function named isWeekday(day) that returns if the provided input is on a weekday
 Make a function named isTodayAWeekend(day) that returns if today is Saturday or Sunday
@@ -245,11 +253,13 @@ Make a function named not(input) returns the input with a flipped boolean
 Make a function named notNot(input) that the negation of the negation of the input.
 Make a function named and(predicate1, predicate2) that returns the logical operation of AND
 Make a function named or(predicate1, predicate2) that returns the logical operation of OR
-
 Make a function named isFibbonacci(number)
 Make a function named isPrime(number)
 
-Make a function named sumOfSquares(a, b) that returns a*a + b*b
+Write a function called reverseString(string) that reverses a string
+Write a function called reverseArray(array) that returns the array in reverse order
+Write a function called reverseNumber(number) that returns the numerals in reverse order
+Write a function named reverse(input) that returns the reverse of any input.
 Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
 Make a function named firstString(input) that returns the first word in a string, separated by space characters.
 Make a function named firstCharacter(string) that returns the first character of a string
@@ -285,7 +295,10 @@ Make a function named rotateMatrixClockwise(input)...
 Make a function named addOneToAll(arrayOfNumbers)
 Make a function named isBlackJack(number) that returns if a number is 21
 Make a function named getEvens(arrayOfNumbers) that returns only the even values
+Make a function named countEvens(arrayOfNumbers) that returns a count of the number of even values.
 Make a function named getOdd(arrayOfNumbers) that returns only the odd values
+Make a function named countOdds(arrayOfNumbers) that returns a count of the number of odd values.
+Make a function named countZeros(arrayOfNumbers) that returns a count of the number of zeros in a number array.
 Make a function named getMultiplesFrom(n, arrayOfNumbers) that returns an array containing only multiples of n from an array of numbers
 Make a function named isString(input)
 Make a function named isArrayOfNumbers(input)
