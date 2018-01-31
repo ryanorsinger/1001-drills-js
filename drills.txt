@@ -12,10 +12,9 @@ false === false
 true === false
 false === true
 typeof (true === true)
-typeof true === "string"
+typeof true === "boolean"
 typeof false === "boolean"
 2.1
--20
 typeof 0
 4 - 2
 10 / 5
@@ -47,6 +46,8 @@ typeof (5 === 5)
 "23" > 42
 !"banana"
 !!"banana"
+Boolean("banana")
+!Boolean("banana")
 20 >= 20
 5 < 10
 "Hello, " + "World!"
@@ -131,12 +132,11 @@ total = appetizer + mainDish + dessert;
 total
 total = 0;
 total += appetizer;
+total = total + appetizer;
 total
 total += mainDish;
 total
 total += dessert;
-total
-
 
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
@@ -155,6 +155,7 @@ Make a variable named fullName that is a combination of your firstName + " " + l
 Make a variable name nickName that holds a string of your nickname. If you've never had a nickname, then store your first name in the nickName variable.
 Make a variable named superHero that holds a string of your favorite super hero.
 Make a variable named superVillain that holds a string of a popular villain.
+total
 
 Make a variable named dayOfTheWeek that holds the name of the day.
 Make a date variable called today that holds an object representing today's date.
@@ -171,16 +172,58 @@ Make a variable named colorNames that holds an array of 'roygbiv' colors as stri
 Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
 Make a variable named trashDay that holds the day of the week you put out the trash.
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
+
+functions w/ no conditionals or loops:
 Make a function named sayHello(name) that returns "Hi " + name.
+Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
+Write a function named upperCase(string)
+Make a function named identity(input) that returns the input exactly as provided.
+Make a function named isOdd(number)
+Make a function named isEven(number)
+Make a function named isPositive(number)
+Make a function named isNegative(number)
+Make a function named isBoolean(input)
+Make a function named isTrue(boolean)
+Make a function named isFalse(boolean)
+Make a function named isTruthy(input)
+Make a function named isFalsy(input)
+Make a function named isVowel(letter)
+Make a function named hasVowels(string) that uses isVowel to check if a string has any vowels
+Make a function named isConsonant(letter)
+Make a function named hasConsonants(string) 
+Make a function named isCapital(letter)
+Make a function named hasCapitalLetters(string) that returns if a string has any capitals.
+Make a function named isLowerCase(letter)
+Make a function named hasLowerCase(string) that returns if a string has any lower cased
+Make a function named isSpace(letter) that returns if a character is a space character
+Make a function named hasSpaces(string) that returns if a string has any space characters
+Make a function named isZero(number)
+Make a function named increment(number) that returns a number plus one
+Make a function named decrement(number) that returns a number minus one
+Make a function named isFive(input)
+Make a function named addFive(input) that adds five to some input.
+Make a function named isMultipleOfFive(input)
+Make a function named isThree(input)
+Make a function named isMultipleOfThree(input)
+Make a function named isMultipleOfThreeAndFive(input)
+Write a function named lowerCase(string)
+Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word (separated by a space) is capitalized.
+Write a function named add(a, b) that returns the sum of a and b
+Write a function named subtract(a, b) that returns a minus b
+Write a function named multiply(a, b) that returns the product of a times b
+Write a function named divide(a, b) that returns a divided by b
+Write a function named remainder(a, b) that returns the remainder after dividing a by b
+Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
+Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
+Make a function named trim(string) that removes empty spaces before and after the input. 
+Make a functio named highestNumber(a, b, c) that takes in 3 numbers and returns the highest.
+
+Write a function named lowerCaseAll(arrayOfStrings)
+Write a function named upperCaseAll(arrayOfStrings)
 Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
 Write a function named sayHiBob(name) that only says "Hi Bob" if the input is "Bob", otherwise "Hi"
-Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
-Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word is capitalized.
 Write a function named capitalizeAll(arrayOfStrings)
-Write a function named lowerCase(string)
-Write a function named lowerCaseAll(arrayOfStrings)
-Write a function named upperCase(string)
-Write a function named upperCaseAll(arrayOfStrings)
+
 Write a function called yellVowels(string) that returns the string w/ vowels capitalized
 Write a function called yellConsolants(string) that returns the string w/ capitalized consonants
 Write a function called reverseString(string) that reverses a string
@@ -191,47 +234,21 @@ Make a function named isTodayTrashDay(trashDay) that uses trashDay and compares 
 Make a function named isTodayRecycleDay(trashDay) that uses recycleDay to return if it's the day or not.
 Make a function named allSubstrings(string) generates all combinations of a string. 'dog' produces ['d','o','do','g','dg','og','dog']
 Make a function named isTodayFriday() that returns if today is Friday or not.
+
 Make a function named isWeekend(day) that returns if the provided input is on a weekend
 Make a function named isWeekday(day) that returns if the provided input is on a weekday
 Make a function named isTodayAWeekend(day) that returns if today is Saturday or Sunday
 Make a function named isTodayAWeekday(day) that returns if today is Mon-Fri
-Make a function named isBoolean(input)
-Make a function named isTrue(boolean)
-Make a function named isFalse(boolean)
-Make a function named isTruthy(input)
-Make a function named isFalsy(input)
 Make a function named areEqual(input1, input2) that returns if both inputs have the same value
 Make a function named areIdentical(input1, input2) that returns if both inputs are same value and data type.
 Make a function named not(input) returns the input with a flipped boolean
 Make a function named notNot(input) that the negation of the negation of the input.
 Make a function named and(predicate1, predicate2) that returns the logical operation of AND
 Make a function named or(predicate1, predicate2) that returns the logical operation of OR
-Make a function named identity(input) that returns the input exactly as provided.
-Make a function named isVowel(letter)
-Make a function named hasVowels(string) that uses isVowel to check if a string has any vowels
-Make a function named isConsonant(letter)
-Make a function named hasConsonants(string)
-Make a function named isCapital(letter)
-Make a function named hasCapitalLetters(string) that returns if a string has any capitals.
-Make a function named isLowerCase(letter)
-Make a function named hasLowerCase(string) that returns if a string has any lower cased
-Make a function named isSpace(letter) that returns if a character is a space character
-Make a function named hasSpaces(string) that returns if a string has any space characters
-Make a function named isZero(number)
-Make a function named isNumberic(input) returns any number or numeric string as true
-Make a function named increment(number) that returns a number plus one
-Make a function named decrement(number) that returns a number minus one
-Make a function named isOdd(number)
-Make a function named isEven(number)
-Make a function named isPositive(number)
-Make a function named isNegative(number)
+
 Make a function named isFibbonacci(number)
 Make a function named isPrime(number)
-Make a function named isFive(input)
-Make a function named isMultipleOfFive(input)
-Make a function named isThree(input)
-Make a function named isMultipleOfThree(input)
-Make a function named isMultipleOfThreeAndFive(input)
+
 Make a function named sumOfSquares(a, b) that returns a*a + b*b
 Maka a function named getHypotenus(a, b) that returns the sqrt of a*a + b*b
 Make a function named firstString(input) that returns the first word in a string, separated by space characters.
@@ -311,14 +328,14 @@ Make a function named getUnique(input) that returns only the unique values from 
 Make a function named sumAll(arrayOfNumbers) that returns the sum of all the numbers in an array
 Make a function named multiplyAll(arrayOfNumbers) that returns the product of all the numbers in an array
 Make a function named range(x, y) to get the integers in range
-Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
+
 Make a function named stringToArray(string) that turns a string with spaces into an array of strings
 Make a function named camelCase(string) that returns a string converted to camelCase
 Make a function named studlyCase(string) that returns a string converted to StudlyCase
 Make a function named snakeCase(string) that returns a string converted to snake_case
 Make a function named repeat(string, times) that returns a string repeated a given number of times
 Make a function named humanizeNumber(number) that returns 1st, 2nd, 83rd, etc...
-Make a function named trim(string) that removes empty spaces before and after the input.
+
 Make a function named flatten(array) that flattends a nested list
 Make a function named getPositionInString(string, target)
 Make a function named getPositionInArray(string, target)
