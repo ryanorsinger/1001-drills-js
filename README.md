@@ -22,6 +22,7 @@ or
 
 ## Topics and tags
 
+- introduce objects before explaining them, e.g. <input name="password">
 - Literal primitive values
 - Data types
 - Booleans
