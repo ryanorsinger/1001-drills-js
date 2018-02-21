@@ -19,6 +19,12 @@ app.get("/", function (request, response) {
 app.get("/readme", (request, response) => {
   response.sendFile(__dirname + '/README.md');
 });
+
+app.get("/functional", (request, response) => {
+  response.sendFile(__dirname + '/functional_drills.md');
+});
+
+
 app.get("/drills", (request, response) => {
   response.sendFile(__dirname + '/drills.txt');
 });
