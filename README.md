@@ -16,24 +16,27 @@ Drills are purposeful rehearsal aimed at improving performance. Pracitioners nee
 - navigate your browser to `http://localhost:port` where port is displayed in 
 
 or
+
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/1001-drills)
 - Remix in glitch with one click, then click "Show" to launch the application.
 
 ## Topics and tags
 
-- Syntax errors
-- Common syntactical errors (using assignment operator in an if condition, )
 - Literal primitive values
 - Data types
+- Booleans
+- boolean operators (and, not, or)
 - statements
 - expressions
-- equality and inequality
 - identity and non-identity
+- equality and inequality
 - comparisson operators
 - boolean logic operators
 - truthy/falsy 
 - type casting and juggling
-- strings and string methods
+- strings and escape characters
+- string concatenation vs addition with +
+- string methods
 - numbers + basic math
 - ternary expressions
 - constant assignment
@@ -43,20 +46,22 @@ or
 - internal functions
 - if
 - if/else
+- nested if statements
 - if/else if/else if
 - if/else if/else
 - switch case
-- using funcitons for predicate logic
-- scope
+- using functions for conditional logic
 - user defined functions
+- scope
 - adding values and html to the HTML document
-- arrays and array access
+- arrays and accessing elements
 - array element reassignment
 - array functions/methods
 - manually iterating across arrays
 - while loops
 - do while loops
 - for loops
+- iterating across arrays (manually and w/ a loop)
 - forEach loops
 - .map
 - .filter
@@ -76,6 +81,22 @@ or
 - arrow functions
 - spread operator
 - ajax requests
+- object creation
+- object equality
+- array equality
+
+
+- Common syntactical errors (using assignment operator in an if condition, )
+
+Concepts
+- assignment
+- comparison
+- logical comparison
+- associativity property
+- communicativity property
+- transativity property
+- distributive property
+
 
 ## Thoughts for additional material:
 - Progression: booleans->numbers->strings->functions->conditionals->arrays->objects->higherOrderFunctions
