@@ -386,3 +386,7 @@ Make a function named vals(object) that returns an array of an object's values, 
 Extend the string prototype to have a map method
 Extend the string prototype to have a filter method
 Extend the string prototype to have a reduce method
+
+Create a multiplication function without the * operator (Hint: a loop might be helpful).
+Create a multiplication function called recursiveMultiplication that doesn't use a loop.
+Create a dividde method without the / operator (Hint: a loop might be helpful).
