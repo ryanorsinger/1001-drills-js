@@ -213,6 +213,10 @@ Write a function named subtract(a, b) that returns a minus b
 Write a function named multiply(a, b) that returns the product of a times b
 Write a function named divide(a, b) that returns a divided by b
 Write a function named remainder(a, b) that returns the remainder after dividing a by b
+Write a function named square(n) that returns n multiplied by n
+Write a function named cube(n) that returns n * n * n
+Write a function named squareRoot(n) that returns the square root of the input
+Write a function named cubeRoot(n) that returns the cube root of the input
 Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
 Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
 Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
