@@ -174,6 +174,7 @@ Make a variable named trashDay that holds the day of the week you put out the tr
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
 
 functions w/ no conditionals or loops:
+---
 Make a function named sayHello(name) that returns "Hi " + name.
 Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
 Write a function named upperCase(string)
@@ -208,6 +209,10 @@ Make a function named isMultipleOfThree(input)
 Make a function named isMultipleOfThreeAndFive(input)
 Write a function named lowerCase(string)
 Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word (separated by a space) is capitalized.
+Write a function named double(n) that returns a number times two
+Write a function named triple(n) that returns a number times 3
+Write a function named quadruple(n) that returns a number times 4
+Write a function named half(n) that returns 1/2 of the provided input
 Write a function named add(a, b) that returns the sum of a and b
 Write a function named subtract(a, b) that returns a minus b
 Write a function named multiply(a, b) that returns the product of a times b
@@ -217,6 +222,16 @@ Write a function named square(n) that returns n multiplied by n
 Write a function named cube(n) that returns n * n * n
 Write a function named squareRoot(n) that returns the square root of the input
 Write a function named cubeRoot(n) that returns the cube root of the input
+
+functions w/ conditionals
+---
+
+
+
+
+
+functions w/ conditionals, loops, arrays
+---
 Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
 Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
 Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
@@ -235,6 +250,9 @@ Make a function named isBlank(input) that determines if a given input is spaces,
 Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
 Make a function named trim(string) that removes empty spaces before and after the input. 
 Make a functio named highestNumber(a, b, c) that takes in 3 numbers and returns the highest.
+
+array stuff
+---
 Write a function named lowerCaseAll(arrayOfStrings)
 Write a function named upperCaseAll(arrayOfStrings)
 Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
@@ -394,3 +412,8 @@ Extend the string prototype to have a reduce method
 Create a multiplication function without the * operator (Hint: a loop might be helpful).
 Create a multiplication function called recursiveMultiplication that doesn't use a loop.
 Create a dividde method without the / operator (Hint: a loop might be helpful).
+
+
+Write a function that takes in an array of objects where each object has an item property and a cost property as a string with a $ and commas in it. The function shoul output the sum up all the expenses
+
+Write a function that takes in an array of objects where each object has an item property and a cost property as a string with a $ and commas in it. The function shoul output the average cost of each expense
