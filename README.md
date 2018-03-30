@@ -1,8 +1,5 @@
-# 1001 Programming Drills in JS
-
+# 1001 Programming Drills
 by: Ryan Orsinger
-
-<img src="https://media.giphy.com/media/tw0OQHVWHVrSo/giphy.gif" alt="drill bit drilling">
 
 ## Rationale:
 Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity.
@@ -22,6 +19,7 @@ or
 
 ## Topics and tags
 
+- introduce objects before explaining them, e.g. <input name="password">
 - Literal primitive values
 - Data types
 - Booleans
