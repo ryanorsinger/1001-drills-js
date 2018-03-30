@@ -19,12 +19,15 @@ or
 
 ## Topics and tags
 
-- introduce objects before explaining them, e.g. <input name="password">
 - Literal primitive values
 - Data types
 - Booleans
 - boolean operators (and, not, or)
+- langugage operators (typeof, var, etc...)
 - statements
+- introduce objects as soon as possible
+    - `<input name="email" id="email" type="text">`
+    - `document.getElementById('email')`
 - expressions
 - identity and non-identity
 - equality and inequality
