@@ -1,22 +1,38 @@
 /* styles */
 /* called by your view template */
 
-/* You might want to try something fancier: */
-/* less: http://lesscss.org/ */
-
 * {
   box-sizing: border-box;
+  
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 25px;
+  	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    margin: 25px;
+}
+
+header {
+  min-height: 11vh;
+  background: #FFD4DE;
+/* Try out any of the next three lines of code to see how they differ. Or don't differ.*/   
+  display: block;
+  display: flex;
+  display: grid;
 }
 
 h1 {
+  margin: auto;
+  width: max-content;
+  font-family: Avenir, Roboto, Heveltica, san-serif;
+  font-weight: normal;
+  border: 1px solid #000;
+  padding: 0 0.5rem;
+}
+
+/* h1 {
   font-weight: bold;
   color: pink;
-}
+} */
 
 .bold {
   font-weight: bold;
