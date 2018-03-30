@@ -1,8 +1,5 @@
-# 1001 Programming Drills in JS
-
+# 1001 Programming Drills
 by: Ryan Orsinger
-
-<img src="https://media.giphy.com/media/tw0OQHVWHVrSo/giphy.gif" alt="drill bit drilling">
 
 ## Rationale:
 Drills are purposeful rehearsal aimed at improving performance. Pracitioners need drills to drill competency and invest in automaticity.
@@ -27,7 +24,11 @@ or
 - Data types
 - Booleans
 - boolean operators (and, not, or)
+- langugage operators (typeof, var, etc...)
 - statements
+- introduce objects as soon as possible
+    - `<input name="email" id="email" type="text">`
+    - `document.getElementById('email')`
 - expressions
 - identity and non-identity
 - equality and inequality
