@@ -1,0 +1,5 @@
+all th operators
+
+unary
+binary
+ternary
