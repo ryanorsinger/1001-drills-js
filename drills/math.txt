@@ -1,0 +1,1 @@
+Math object doing math operations

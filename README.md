@@ -19,6 +19,7 @@ or
 
 ## Topics and tags
 
+- introduce objects before explaining them, e.g. <input name="password">
 - Literal primitive values
 - Data types
 - Booleans
@@ -86,7 +87,6 @@ or
 - object equality
 - array equality
 
-
 - Common syntactical errors (using assignment operator in an if condition, )
 
 Concepts
@@ -97,7 +97,6 @@ Concepts
 - communicativity property
 - transativity property
 - distributive property
-
 
 ## Thoughts for additional material:
 - Progression: booleans->numbers->strings->functions->conditionals->arrays->objects->higherOrderFunctions
