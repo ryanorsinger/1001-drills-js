@@ -1,0 +1,33 @@
+data types
+expressions
+statements
+variables
+assignment
+reassignment
+comparisson
+accumulation
+boolean operators
+unary operators
+if
+if/else
+if/elseif/else
+switch-case
+math
+while
+do-while
+for loops
+forEach
+.map
+.filter
+.reduce
+
+
+variables/state based on the current page   
+built-in JS functions
+functions w/ conditionals
+functions w/ conditionals, loops, arrays
+functions w/ accumulators (sumAll, avg, etc..)
+arrays
+numeric strings
+methods
+
