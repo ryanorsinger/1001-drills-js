@@ -148,7 +148,6 @@ document.body.innerHTML += "<br>";
 document.body.innerHTML += "<textarea name='solution' id='solution' placeholder='Solution'></textarea>";
 document.body.innerHTML += "<br>";
 document.body.innerHTML += '<textarea name="output" id="output" placeholder="output"></textarea>';
-
 Make a variable named firstName that holds a string of your first name.
 Make a variable named lastName that holds a string of your last name.
 Make a variable named fullName that is a combination of your firstName + " " + lastName
@@ -156,7 +155,6 @@ Make a variable name nickName that holds a string of your nickname. If you've ne
 Make a variable named superHero that holds a string of your favorite super hero.
 Make a variable named superVillain that holds a string of a popular villain.
 total
-
 Make a variable named dayOfTheWeek that holds the name of the day.
 Make a date variable called today that holds an object representing today's date.
 Make a variable named favoriteNumber that holds your favoriteNumber.
@@ -172,18 +170,21 @@ Make a variable named colorNames that holds an array of 'roygbiv' colors as stri
 Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
 Make a variable named trashDay that holds the day of the week you put out the trash.
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
-
 functions w/ no conditionals or loops:
----
 Make a function named sayHello(name) that returns "Hi " + name.
 Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
 Write a function named upperCase(string)
 Make a function named identity(input) that returns the input exactly as provided.
 Make a function named isOdd(number)
+Make a function named hasOdds(array)
 Make a function named isEven(number)
+Make a function named hasEvens(array)
 Make a function named isPositive(number)
+Make a function named hasPositives(array)
 Make a function named isNegative(number)
+Make a function named hasNegatives(array)
 Make a function named isBoolean(input)
+Make a function named hasBooleans(array)
 Make a function named isTrue(boolean)
 Make a function named isFalse(boolean)
 Make a function named isTruthy(input)
@@ -199,6 +200,7 @@ Make a function named hasLowerCase(string) that returns if a string has any lowe
 Make a function named isSpace(letter) that returns if a character is a space character
 Make a function named hasSpaces(string) that returns if a string has any space characters
 Make a function named isZero(number)
+Make a function named notZero(input) that returns true if..
 Make a function named increment(number) that returns a number plus one
 Make a function named decrement(number) that returns a number minus one
 Make a function named isFive(input)
@@ -207,6 +209,8 @@ Make a function named isMultipleOfFive(input)
 Make a function named isThree(input)
 Make a function named isMultipleOfThree(input)
 Make a function named isMultipleOfThreeAndFive(input)
+Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
+Add a method to the number prototype called .isMultipleOf(n) that returns if the number is evenly divisible by n.
 Write a function named lowerCase(string)
 Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word (separated by a space) is capitalized.
 Write a function named double(n) that returns a number times two
@@ -218,25 +222,16 @@ Write a function named subtract(a, b) that returns a minus b
 Write a function named multiply(a, b) that returns the product of a times b
 Write a function named divide(a, b) that returns a divided by b
 Write a function named remainder(a, b) that returns the remainder after dividing a by b
+Make a function named modulo(a, b)
 Write a function named square(n) that returns n multiplied by n
 Write a function named cube(n) that returns n * n * n
 Write a function named squareRoot(n) that returns the square root of the input
 Write a function named cubeRoot(n) that returns the cube root of the input
-
-functions w/ conditionals
----
-
-
-
-
-
-functions w/ conditionals, loops, arrays
----
 Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
 Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
 Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
 Write a function named invertSign(number) that returns a negative version of a postive number, a positve version of negative, and false for all else.
-Write a function named sine(number) that returns false or the sine of a number ()
+Write a function named sine(number) that returns false or the sine of a number 
 Write a function named cosine(number)
 Write a function named tangent(number)
 Write a function named arcsine()
@@ -245,14 +240,10 @@ Write a function named cotangent()
 Write a function named degreesToRadians(number)
 Write a function named radiansToDegrees(number)
 Make a function named sumOfSquares(a, b) that returns a*a + b*b
-
 Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
 Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
 Make a function named trim(string) that removes empty spaces before and after the input. 
 Make a functio named highestNumber(a, b, c) that takes in 3 numbers and returns the highest.
-
-array stuff
----
 Write a function named lowerCaseAll(arrayOfStrings)
 Write a function named upperCaseAll(arrayOfStrings)
 Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
@@ -260,7 +251,6 @@ Write a function named sayHiBob(name) that only says "Hi Bob" if the input is "B
 Write a function named capitalizeAll(arrayOfStrings)
 Write a function called yellVowels(string) that returns the string w/ vowels capitalized
 Write a function called yellConsolants(string) that returns the string w/ capitalized consonants
-
 Make a function named isTodayTrashDay(trashDay) that uses trashDay and compares to today's day.
 Make a function named isTodayRecycleDay(trashDay) that uses recycleDay to return if it's the day or not.
 Make a function named allSubstrings(string) generates all combinations of a string. 'dog' produces ['d','o','do','g','dg','og','dog']
@@ -275,8 +265,11 @@ Make a function named not(input) returns the input with a flipped boolean
 Make a function named notNot(input) that the negation of the negation of the input.
 Make a function named and(predicate1, predicate2) that returns the logical operation of AND
 Make a function named or(predicate1, predicate2) that returns the logical operation of OR
-Make a function named isFibbonacci(number)
+Make a function named isFibonacci(number)
+Make a function named getNthFibonacci(n)
 Make a function named isPrime(number)
+Make a function named getNthPrime(number)
+
 
 Write a function called reverseString(string) that reverses a string
 Write a function called reverseArray(array) that returns the array in reverse order
@@ -292,6 +285,8 @@ Make a function named secondString(string) that returns the second character of 
 Make a function named secondElement(array) that returns the second element of an array
 Make a function named secondNumber(number) that returns the second numeral of a number.
 Make a function named second(input) that returns the second string, element, numeral.
+
+
 Make a function named restOfString(string) that returns every character except the first.
 Make a function named restOfArray(array) that returns the array with first removed.
 Make a function named restOfNumber(number) that returns numerals with the first removed.
@@ -307,7 +302,22 @@ Make a function named penultimate(input) the penultimate from the input (string,
 Make a function named getRandomFromString(string) that returns the random character of a string
 Make a function named getRandomFromArray(array) that returns the random element of an array
 Make a function named getRandomFromNumber(number) that returns the random numeral of a number
-Make a function named getRandomFrom(input) that returns a random member from whatever input type
+Make a function named getRandomFromObject(object) that returns a random member
+Make a function named getRandomFrom(anyInput) that returns a call to the appropriate "getRandomFrom" function.
+To the string prototype, add a .random() method that returns a random character
+To the array prototype, add a .random() method that returns a random element
+To the object prototype, add a .random() method that returns a random member's value or key/value
+Make a function named absoluteValue(number) that returns the absolute value of a number.
+
+Make a function named isBinary(number) that returns if the input is a binary expression.
+Make a function named toBinary(number) that takes in any number and returns the binary representation
+Make a function named isHex(number) that returns if a number is a hexidecimal expression.
+Make a function named toHex(number) that converts a numeric expression to Hex or returns NaN.
+Make a function named randomColor() that returns a random color name.
+Make a function named randomHexColor() that returns a random Hex color
+Make a function named randomNumber() that returns 
+Make a function named randomIntIncluding(min, max)
+Make a function named randomIntExcluding(min, max)
 Make a function named isArrayOfNumbers(input)
 Make a function named isArrayOfStrings(input)
 Make a function named isArrayOfArrays(input)
@@ -408,12 +418,18 @@ Make a function named vals(object) that returns an array of an object's values, 
 Extend the string prototype to have a map method
 Extend the string prototype to have a filter method
 Extend the string prototype to have a reduce method
-
 Create a multiplication function without the * operator (Hint: a loop might be helpful).
 Create a multiplication function called recursiveMultiplication that doesn't use a loop.
 Create a dividde method without the / operator (Hint: a loop might be helpful).
-
-
 Write a function that takes in an array of objects where each object has an item property and a cost property as a string with a $ and commas in it. The function shoul output the sum up all the expenses
-
 Write a function that takes in an array of objects where each object has an item property and a cost property as a string with a $ and commas in it. The function shoul output the average cost of each expense
+Make a function named estimatePi(precision) which returns PI up to a given number of places
+Make a function named decimalToPercent(decimalNumber) that returns a format like "99%"
+Make a function named percentToDecimal(number) that takes in "11%" and returns .11
+Make a function named numberToRomanNumeral(integer) that returns a number in Roman notation.
+Make a function named romanNumeralToNumber()
+Make a function named getKey(value, object) that returns the corresponding key of a given object when provided a value.
+Add a .getKey() method to the object prototype that returns the key of the given value.
+Make a function called arrayToString(array, delimeter) that takes in an array and a delimeter and returns a string
+Make a function called stringToArray(stringInput, delimeter) that takes in the string input, the delimeter, and returns an array of the elements
+
