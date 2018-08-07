@@ -28,21 +28,30 @@ app.get("/functional", (request, response) => {
 app.get("/drills", (request, response) => {
   response.sendFile(__dirname + '/drills.txt');
 });
+
+
 app.get("/dreams", function (request, response) {
   response.send(dreams);
 });
 
 // could also use the POST body instead of query string: http://expressjs.com/en/api.html#req.body
-app.post("/dreams", function (request, response) {
+// setup a listener for answers
+app.post("/answers", function (request, response) {
+  // set request.drillNumber
+  // set request.userId
+  // set request.timestamp
+  // 
   dreams.push(request.query.dream);
   response.sendStatus(200);
 });
 
 // Simple in-memory store for now
 let dreams = [
-  "Find and count some sheep",
-  "Climb a really tall mountain",
-  "Wash the dishes"
+  "Introduce the rudiments of programming",
+  "Condition experience with comparing and transforming expressions, working with data",
+  "Working with data types",
+  "Get lots of experience working with booleans, strings, numbers, arrays, and objects",
+  "Composing procedures to model real-word processes and procedures"
 ];
 
 // listen for requests :)
