@@ -152,31 +152,54 @@ null === false
 2 + "2.3"
 2 + parseFloat("2.3")
 
-
-
-
-
-
-
 # Prototype Constructors 
 Boolean("banana")
 !Boolean("banana")
+Boolean("")
+Boolean("     ")
+Boolean(1)
+Boolean(Infinity)
+Boolean(0)
+Boolean(undefined)
+Boolean(null)
+Boolean(NaN)
 String(23)
+String(true)
+String(false)
+String(null)
+Number("icecream")
+Number("23")
+Number(false)
+Number(null)
+Number(undefined)
+Number(true)
 
 # Variable declaration 
+var favoriteFood
+typeof favoriteFood
+var someNumber
+typeof someNumber
+someNumber == undefined
+favoriteFood == undefined
 
-# Variable assignment
+# Variable assignment and comparisson
+var courseName = "Codeup"
+courseName == "Codeup"
+courseName == "codeup"
+courseName == "Code" + "Up"
+var today = "Tuesday"
+today == "Tuesday"
+today == "tuesday"
+
 
 # Variable reassignment
+var number = 5
+typeof number
+number = 23
+number == 23
+number = "banana"
+typeof number
 
-# Variable reassignment (as an accumulator)
-
-
-parseFloat("banana")
-Make a variable called rightHereNow and assign it the value of true.
-Make a variable called onTheMoon and assign it the value of false.
-rightHereNow && onTheMoon
-rightHereNow || onTheMoon
 var favoriteNumber = 5;
 favoriteNumber;
 favoriteNumber === "5";
@@ -185,6 +208,38 @@ favoriteNumber == 23;
 (favoriteNumber == 5 || favoriteNumber == 23)
 favoriteNumber = 23;
 favoriteNumber;
+
+# Variable reassignment (as an accumulator)
+var total = 0;
+var appetizer = 3;
+var mainDish = 7;
+var dessert = 3;
+total = appetizer
+total
+total = mainDish
+total
+total = dessert
+total = 0;
+total = appetizer + mainDish + dessert;
+total
+total = 0;
+total += appetizer;
+total = total + appetizer;
+total
+total += mainDish;
+total
+total += dessert;
+
+
+
+
+
+
+
+Make a variable called rightHereNow and assign it the value of true.
+Make a variable called onTheMoon and assign it the value of false.
+rightHereNow && onTheMoon
+rightHereNow || onTheMoon
 const myName = "";  //
 myName === "Bob"
 myName = "Bob"
@@ -212,25 +267,6 @@ console.log(favoriteColor);
 favoriteColor = "" // add your favorite color in the string
 favoriteColor == "green";
 (favoriteColor == "green" || favoriteColor == "blue" || favoriteColor == "red")
-var total = 0;
-var appetizer = 4;
-var mainDish = 9;
-var dessert = 3;
-total = appetizer
-total
-total = mainDish
-total
-total = dessert
-total = 0;
-total = appetizer + mainDish + dessert;
-total
-total = 0;
-total += appetizer;
-total = total + appetizer;
-total
-total += mainDish;
-total
-total += dessert;
 
 document.body.innerHTML = "";
 document.title = "Welcome to 1001 Drills";
