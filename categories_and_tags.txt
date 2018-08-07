@@ -17,10 +17,10 @@ while
 do-while
 for loops
 forEach
-.map
-.filter
-.reduce
-
+mapping operations
+filtering operations
+reducing operations
+flattening operations
 
 variables/state based on the current page   
 built-in JS functions
@@ -31,3 +31,4 @@ arrays
 numeric strings
 methods
 
+date and time manipulation

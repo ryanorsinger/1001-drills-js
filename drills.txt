@@ -1,12 +1,94 @@
+# Data types
 true
 false
-typeof true
-typeof false
+2.1
+"Hi, everybody!"
+undefined
+null
+NaN
+
+# Basic Math operators
+4 - 2
+10 / 5
+100 * 3
+11 - 7
+10 - (-2)
+Infinity + 1
+Infinity - 1
+0.2 + 0.1 (this one is worth some research)
+"Hello" / 5
+"Icecream" * 10
+("cat" * 3) + "Bread"
+("cat" * 3) + ("dog" * 3) + ("lizard" * 4) + " BATMAN!"
+
+# Using the Not boolean operator
 !true
 !!true
 !false
 !!false
+!5.32
+!-12
+!5
+!!5
+!0
+!!0
+!"banana"
+!!"banana"
+!undefined
+!!undefined
+null
+!null
+!!null
+!""
+!!""
+!(true || false)
+!(false && true)
+
+# Boolean Operators (AND and OR)
+true && true
+false && true
+true && false
+false && false
+true && (true && false)
+false && (true && true)
+true || true
+true || false
+false || true
+false || false
+true || (false && false)
+false || (true || false)
+false || false || false || false || false || true
+true && true && true && true && false
+
+# Typeof operator
+typeof true
+typeof false
 typeof !!false
+typeof 0
+typeof 3.141
+typeof "3.141"
+typeof "Howdy, ya'll!"
+typeof (3 + 3)
+typeof "3" + 3
+typeof ("3" + 3)
+typeof 5
+typeof "5"
+typeof 5 === typeof "5"
+typeof (5 === 5)
+typeof true
+typeof typeof boolean
+typeof "banana"
+typeof typeof "banana"
+typeof 5.23
+typepof typeof 5.23
+
+# Comparisson operators (===, ==, !=, !==, >, <, >=, <=)
+99 === 99
+2 === 2.0
+2 == "2"
+2 === "2"
+2 === 2.0
+4 !== 2
 true === true
 false === false
 true === false
@@ -14,58 +96,20 @@ false === true
 typeof (true === true)
 typeof true === "boolean"
 typeof false === "boolean"
-2.1
-typeof 0
-4 - 2
-10 / 5
-typeof 3.141
-!5.32
-!-12
-!5
-!!5
-!0
-!!0
-99 === 99
-2 === 2.0
-4 !== 2
-10 * 3
-11 - 7
-"Hi, everybody!"
-typeof "Howdy, ya'll!"
+typeof 23 === "number"
+typeof "banana" === "string"
+(11 - 3) === 7
 "Hello" === "Hello"
 typeof "Howdy" === typeof "Howdy"
-typeof 5
-typeof "5"
-typeof 5 === typeof "5"
-typeof (5 === 5)
 5 === "5"
 5 == "5"
 5 !== "5"
 5 != "5"
 10 > 2
 "23" > 42
-!"banana"
-!!"banana"
-Boolean("banana")
-!Boolean("banana")
 20 >= 20
 5 < 10
-"Hello, " + "World!"
-"H" + "e" + "l" + "l" + "o"
 "Hello" != "World"
-2 + 2
-2 + "2"
-2 + "2.3"
-2 + parseInt("2.3") + parseFloat("2.3")
-"banana" * 3
-parseFloat("banana")
-20 / 0
-undefined
-!undefined
-!!undefined
-null
-!null
-!!null
 undefined == null
 undefined === null
 "" == false
@@ -79,6 +123,56 @@ false == 0
 5 === 5
 5 == 5
 5 = 5
+2 != "2"
+2 !== "2"
+2 != 2
+2 !== 2
+undefined == false
+undefined === false
+null == false
+null === false
+0 == false
+0 === false
+"" == false
+"" === false
+"" == 0
+"" === 0
+"code" == 1
+"code" === 1
+"banana" == true
+"banana" === true
+"banana" != true
+"banana" !== true
+
+# Concatenation
+"Hello, " + "World!"
+"H" + "e" + "l" + "l" + "o"
+2 + 2
+2 + "2"
+2 + "2.3"
+2 + parseFloat("2.3")
+
+
+
+
+
+
+
+# Prototype Constructors 
+Boolean("banana")
+!Boolean("banana")
+String(23)
+
+# Variable declaration 
+
+# Variable assignment
+
+# Variable reassignment
+
+# Variable reassignment (as an accumulator)
+
+
+parseFloat("banana")
 Make a variable called rightHereNow and assign it the value of true.
 Make a variable called onTheMoon and assign it the value of false.
 rightHereNow && onTheMoon
@@ -433,3 +527,5 @@ Add a .getKey() method to the object prototype that returns the key of the given
 Make a function called arrayToString(array, delimeter) that takes in an array and a delimeter and returns a string
 Make a function called stringToArray(stringInput, delimeter) that takes in the string input, the delimeter, and returns an array of the elements
 
+Make a function named daysBetween(start, end)
+Make a function named weekdaysBetween(start, end)
