@@ -24,3 +24,18 @@ Output:
 ...
 
 4. Write the code/loop that outputs the first 20 Fibonacci numbers.
+
+
+make a loop that counts from 1 to 10
+make a loop that counts from 0 to 10
+make a loop that counts from 5 to 15
+make a loop that counts from 20 to 30
+make a loop that counts from 1 to 100
+make a loop that counts from 1 to 1000
+make a loop that starts at 10 and ends at 0
+make a loop that starts at 20 and ends at -20
+
+prompt the user for a starting number, store the answer in a variable named "start"
+prompt the user for an ending number, store the value in a variable named "end"
+prompt the user for a number to count by, assign the value to a varialbe named "countBy"
+    

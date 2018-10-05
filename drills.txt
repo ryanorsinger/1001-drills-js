@@ -304,7 +304,8 @@ Make a variable named colorNames that holds an array of 'roygbiv' colors as stri
 Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
 Make a variable named trashDay that holds the day of the week you put out the trash.
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
-functions w/ no conditionals or loops:
+
+### functions w/ no conditionals or loops:
 Make a function named sayHello(name) that returns "Hi " + name.
 Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
 Write a function named upperCase(string)
