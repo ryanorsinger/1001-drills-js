@@ -6,6 +6,10 @@ false
 undefined
 null
 NaN
+typeof true
+typeof false
+typeof 2.1
+typeof "Hi, everybody"
 
 # Basic Math operators
 4 - 2
@@ -300,39 +304,31 @@ Make a variable named colorNames that holds an array of 'roygbiv' colors as stri
 Make a variable named arrayOfChores that holds an array of strings, each being a common chore.
 Make a variable named trashDay that holds the day of the week you put out the trash.
 Make a variable named recycleDay that holds the day of the week you put out the recycles.
-functions w/ no conditionals or loops:
+
+### functions w/ no conditionals or loops:
 Make a function named sayHello(name) that returns "Hi " + name.
 Write a function named capitalize(string) that takes a string of any capitalization and uppercases the first character and lowercases the rest of the characters of a string.
 Write a function named upperCase(string)
-Make a function named identity(input) that returns the input exactly as provided.
-Make a function named isOdd(number)
-Make a function named hasOdds(array)
-Make a function named isEven(number)
-Make a function named hasEvens(array)
-Make a function named isPositive(number)
-Make a function named hasPositives(array)
-Make a function named isNegative(number)
-Make a function named hasNegatives(array)
+
+# Functions with conditionals but no loops or arrays
 Make a function named isBoolean(input)
-Make a function named hasBooleans(array)
-Make a function named isTrue(boolean)
-Make a function named isFalse(boolean)
-Make a function named isTruthy(input)
-Make a function named isFalsy(input)
-Make a function named isVowel(letter)
-Make a function named hasVowels(string) that uses isVowel to check if a string has any vowels
-Make a function named isConsonant(letter)
-Make a function named hasConsonants(string) 
-Make a function named isCapital(letter)
-Make a function named hasCapitalLetters(string) that returns if a string has any capitals.
-Make a function named isLowerCase(letter)
-Make a function named hasLowerCase(string) that returns if a string has any lower cased
-Make a function named isSpace(letter) that returns if a character is a space character
-Make a function named hasSpaces(string) that returns if a string has any space characters
-Make a function named isZero(number)
-Make a function named notZero(input) that returns true if..
+Make a function named isNegative(number)
+Make a function named isArray(input) that returns a boolean if the provided input is an array or not.
+Make a function named isPositive(number)
+Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
 Make a function named increment(number) that returns a number plus one
 Make a function named decrement(number) that returns a number minus one
+Write a function named square(n) that returns n multiplied by n
+Make a function named sumOfSquares(a, b) that returns a*a + b*b
+Write a function named add(a, b) that returns the sum of a and b
+Write a function named containsVowel()
+Write a function named getHighestNumber(a, b, c)
+Write a function named isPalindrome(someString)
+
+# Functions with conditionals but no loops or arrays
+Make a function named isOdd(number)
+Make a function named isEven(number)
+Make a function named identity(input) that returns the input exactly as provided.
 Make a function named isFive(input)
 Make a function named addFive(input) that adds five to some input.
 Make a function named isMultipleOfFive(input)
@@ -340,40 +336,88 @@ Make a function named isThree(input)
 Make a function named isMultipleOfThree(input)
 Make a function named isMultipleOfThreeAndFive(input)
 Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
-Add a method to the number prototype called .isMultipleOf(n) that returns if the number is evenly divisible by n.
+Make a function named isTrue(boolean)
+Make a function named isFalse(boolean)
+Make a function named isTruthy(input) // remember that values other than true will behave like true
+Make a function named isFalsy(input) // remember that values other than false behave like false
+Make a function named isVowel(letter)
+Make a function named isConsonant(letter)
+Make a function named isCapital(letter)
+Make a function named isLowerCase(letter)
+Make a function named hasLowerCase(string) that returns if a string has any lower cased
+Make a function named isSpace(letter) that returns if a character is a space character
+Make a function named isZero(number)
+Make a function named notZero(input) that returns true if..
 Write a function named lowerCase(string)
-Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word (separated by a space) is capitalized.
 Write a function named double(n) that returns a number times two
 Write a function named triple(n) that returns a number times 3
 Write a function named quadruple(n) that returns a number times 4
 Write a function named half(n) that returns 1/2 of the provided input
-Write a function named add(a, b) that returns the sum of a and b
+
 Write a function named subtract(a, b) that returns a minus b
 Write a function named multiply(a, b) that returns the product of a times b
 Write a function named divide(a, b) that returns a divided by b
 Write a function named remainder(a, b) that returns the remainder after dividing a by b
-Make a function named modulo(a, b)
-Write a function named square(n) that returns n multiplied by n
+Make a function named modulo(a, b) that returns the returns the remainder after dividing a by b
 Write a function named cube(n) that returns n * n * n
 Write a function named squareRoot(n) that returns the square root of the input
 Write a function named cubeRoot(n) that returns the cube root of the input
-Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
-Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
-Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
 Write a function named invertSign(number) that returns a negative version of a postive number, a positve version of negative, and false for all else.
+Write a function named degreesToRadians(number)
+Write a function named radiansToDegrees(number)
+Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
+Make a function named trim(string) that removes empty spaces before and after the input. 
+Make a function named areEqual(input1, input2) that returns if both inputs have the same value
+Make a function named areIdentical(input1, input2) that returns if both inputs are same value and data type.
+Make a function named not(input) returns the input with a flipped boolean
+Make a function named notNot(input) that the negation of the negation of the input.
+Make a function named and(predicate1, predicate2) that returns the logical operation of AND
+Make a function named or(predicate1, predicate2) that returns the logical operation of OR
+Write a function called reverseString(string) that reverses a string
+Make a function named absoluteValue(number) that returns the absolute value of a number.
+Make a function named rollDice(sides) that takes in an argument containing the number of sides the die should have. Generate a random number between 1 up to and including the number of sides.
+
+
+
+
+
 Write a function named sine(number) that returns false or the sine of a number 
 Write a function named cosine(number)
 Write a function named tangent(number)
 Write a function named arcsine()
 Write a function named arccosine()
 Write a function named cotangent()
-Write a function named degreesToRadians(number)
-Write a function named radiansToDegrees(number)
-Make a function named sumOfSquares(a, b) that returns a*a + b*b
-Make a function named isBlank(input) that determines if a given input is spaces, newline characters, or tabs.
-Make a function named isNumeric(input) returns true/false if the input is a number or numeric string
-Make a function named trim(string) that removes empty spaces before and after the input. 
-Make a functio named highestNumber(a, b, c) that takes in 3 numbers and returns the highest.
+
+
+# Functions with loops, conditionals, and arrays
+
+
+# Functions with objects, arrays, etc...
+
+
+# Higher Order Functions
+
+
+
+Make a function named hasOdds(array)
+Make a function named hasEvens(array)
+Make a function named hasPositives(array)
+Make a function named hasNegatives(array)
+Make a function named hasBooleans(array)
+Make a function named hasVowels(string) that uses isVowel to check if a string has any vowels
+Make a function named hasConsonants(string) 
+
+Make a function named hasCapitalLetters(string) that returns if a string has any capitals.
+Make a function named hasSpaces(string) that returns if a string has any space characters
+
+Add a method to the number prototype called .isMultipleOf(n) that returns if the number is evenly divisible by n.
+
+
+Write a function named capitalizeEachWord(string) uses capitalize to return a string where each new word (separated by a space) is capitalized.
+
+Write a function named average(arrayOfNumbers) that returns the average of an array of numbers and numeric strings.
+Write a function named median(arrayOfNumbers) that returns the median of a set of numbers.
+Write a function named mode(arrayOfNumbers) that returns the most frequently occurring number in the set.
 Write a function named lowerCaseAll(arrayOfStrings)
 Write a function named upperCaseAll(arrayOfStrings)
 Write a function named sayHiJane(name) that says "Hi Jane if the input is Jane or jane, otherwise "Hi"
@@ -389,19 +433,14 @@ Make a function named isWeekend(day) that returns if the provided input is on a 
 Make a function named isWeekday(day) that returns if the provided input is on a weekday
 Make a function named isTodayAWeekend(day) that returns if today is Saturday or Sunday
 Make a function named isTodayAWeekday(day) that returns if today is Mon-Fri
-Make a function named areEqual(input1, input2) that returns if both inputs have the same value
-Make a function named areIdentical(input1, input2) that returns if both inputs are same value and data type.
-Make a function named not(input) returns the input with a flipped boolean
-Make a function named notNot(input) that the negation of the negation of the input.
-Make a function named and(predicate1, predicate2) that returns the logical operation of AND
-Make a function named or(predicate1, predicate2) that returns the logical operation of OR
+
 Make a function named isFibonacci(number)
 Make a function named getNthFibonacci(n)
 Make a function named isPrime(number)
 Make a function named getNthPrime(number)
 
 
-Write a function called reverseString(string) that reverses a string
+
 Write a function called reverseArray(array) that returns the array in reverse order
 Write a function called reverseNumber(number) that returns the numerals in reverse order
 Write a function named reverse(input) that returns the reverse of any input.
@@ -437,7 +476,6 @@ Make a function named getRandomFrom(anyInput) that returns a call to the appropr
 To the string prototype, add a .random() method that returns a random character
 To the array prototype, add a .random() method that returns a random element
 To the object prototype, add a .random() method that returns a random member's value or key/value
-Make a function named absoluteValue(number) that returns the absolute value of a number.
 
 Make a function named isBinary(number) that returns if the input is a binary expression.
 Make a function named toBinary(number) that takes in any number and returns the binary representation
@@ -538,6 +576,8 @@ Make a function named secondIndexOfCharacter(character, string) that returns the
 Make a function named secondIndexOfElement(element, array) that returns the index of an element of an array
 Make a function named secondIndexOfNumeral(numeral, number) that returns the index of numeral of a number
 Make a function named secondIndexOf(needle, haystack)
+Make a function named thirdIndexOf...
+
 Make a function named lastIndexOfCharacter(string) that returns the index of a character of a string
 Make a function named lastIndexOfElement(array) that returns the index of an element of an array
 Make a function named lastIndexOfNumeral(number) that returns the index of numeral of a number
